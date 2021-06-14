@@ -1,0 +1,34 @@
+.banner {
+  height: 10rem;
+  text-align: center;
+  width: 100%;
+  background-color: $gray-300;
+
+  .brand {
+    font-size: 3rem;
+  }
+}
+
+footer.content-info {
+  background-color: $gray-300;
+}
+
+main {
+  padding-top: 2rem;
+}
+
+#intro {
+  width: 100%;
+  height: 30vh;
+  overflow: hidden;
+  background-position: center;
+
+}
+
+#menu-menu-principal {
+  justify-content: center;
+}
+
+.wp-block-image img {
+  height: auto;
+}

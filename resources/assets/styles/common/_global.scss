@@ -1,0 +1,21 @@
+.md-hidden {
+  display: block;
+
+  @include media-breakpoint-up(md) {
+    display: none;
+
+  }
+}
+
+.sm-hidden {
+  display: none;
+
+  @include media-breakpoint-up(md) {
+    display: block;
+
+  }
+}
+
+.visuallyhidden {
+  display: none;
+}
