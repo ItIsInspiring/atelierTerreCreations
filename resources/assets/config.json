@@ -8,8 +8,8 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/wp-content/themes/atelier-terre-creation",
-  "devUrl": "http://atelier-terre-creation.test",
+  "publicPath": "/wp-content/themes/atelier-terre-creations",
+  "devUrl": "http://atelier-terre-creations.test",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [
