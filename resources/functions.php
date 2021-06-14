@@ -90,3 +90,10 @@ Container::getInstance()
             'view' => require dirname(__DIR__).'/config/view.php',
         ]);
     }, true);
+
+    function wp_maintenance_mode() {
+        if (!current_user_can('edit_themes') || !is_user_logged_in()) {
+        wp_die('<h1>En maintenance</h1><br />Le site de l\'atelier Terre et Création se fait peau neuve ! <a href="https://www.facebook.com/AtelierTerreCreations/"> Voir notre page Facebook </a>');
+        }
+        }
+        add_action('get_header', 'wp_maintenance_mode');
