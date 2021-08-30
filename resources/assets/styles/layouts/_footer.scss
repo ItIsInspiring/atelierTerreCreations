@@ -1,3 +1,21 @@
 // footer {
 //   padding: 2rem 0;
 // }
+footer.content-info {
+  background-color: theme-color('third');
+  color: theme-color('primary');
+  padding-bottom: 0.5rem;
+}
+
+// .menu-footer_menu-container {
+//   border: 1px solid red;
+//   width: 100%;
+// }
+
+#menu-footer_menu {
+  li:nth-child(1):after {
+    content: "-";
+    margin: 0 0.25rem;
+    border: 0px solid red;
+  }
+}

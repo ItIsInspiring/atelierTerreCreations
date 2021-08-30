@@ -16,7 +16,7 @@
   </label>
 
   <nav id="menu">
-    <a class="brand" href="{{ home_url('/') }}">
+    <a class="brand h1" href="{{ home_url('/') }}">
       <span>{{ get_bloginfo('name', 'display') }}</span>
     </a>
     <p>

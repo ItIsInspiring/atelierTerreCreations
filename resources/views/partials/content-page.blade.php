@@ -1,11 +1,15 @@
 
 @php the_content() @endphp
    
-   @php $children = Page::getChildren(get_the_ID()); @endphp
+
+
+@php $children = Page::getChildren(get_the_ID()); @endphp
+
     <ul id="menu-content" class="mb-3">
         @foreach($children as $child)
-        <li>
-            <a class="btn btn-outline-primary btn-title h4" data-target="#contenu-{{ $child['slug'] }}" role="button" aria-expanded="false" aria-controls="contenu-{{ $child['slug'] }}">
+
+        <li> 
+            <a class="btn btn-outline-third btn-title h4" data-target="#contenu-{{ $child['slug'] }}" role="button" aria-expanded="false" aria-controls="contenu-{{ $child['slug'] }}">
                 {{ $child['title'] }}
             </a>
         </li>  
@@ -28,7 +32,7 @@
                 <div class="card">
                     <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-{!! $underchild['slug'] !!}" aria-expanded="true" aria-controls="collapse-{!! $underchild['slug'] !!}">
+                        <button class="btn btn-outline-third btn-link" data-toggle="collapse" data-target="#collapse-{!! $underchild['slug'] !!}" aria-expanded="true" aria-controls="collapse-{!! $underchild['slug'] !!}">
                             {!! $underchild['title'] !!}
                         </button>
                         </h5>

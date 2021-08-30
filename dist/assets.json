@@ -1,5 +1,11 @@
 {
-  "scripts/customizer.js": "scripts/customizer_dc210eea.js",
-  "styles/main.css": "styles/main_dc210eea.css",
-  "scripts/main.js": "scripts/main_dc210eea.js"
+  "fonts/montserrat-bold-webfont.woff": "fonts/montserrat-bold-webfont_d82f1b51.woff",
+  "fonts/montserrat-bold-webfont.woff2": "fonts/montserrat-bold-webfont_3c65ce08.woff2",
+  "fonts/montserrat-regular-webfont.woff": "fonts/montserrat-regular-webfont_96784608.woff",
+  "fonts/montserrat-regular-webfont.woff2": "fonts/montserrat-regular-webfont_66439065.woff2",
+  "fonts/sueellenfrancisco-regular-webfont.woff": "fonts/sueellenfrancisco-regular-webfont_25a36a35.woff",
+  "fonts/sueellenfrancisco-regular-webfont.woff2": "fonts/sueellenfrancisco-regular-webfont_74fa845f.woff2",
+  "scripts/customizer.js": "scripts/customizer_86f34227.js",
+  "styles/main.css": "styles/main_86f34227.css",
+  "scripts/main.js": "scripts/main_86f34227.js"
 }

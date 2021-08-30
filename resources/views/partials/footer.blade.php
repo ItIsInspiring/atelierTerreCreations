@@ -1,4 +1,4 @@
-<footer class="content-info mt-4 ">
+<footer class="content-info mt-4 pb-4">
   <div class="container">
     {{-- @php dynamic_sidebar('sidebar-footer') @endphp --}}
     <div class="row">
@@ -12,8 +12,8 @@
          <ul>
       </div>
     </div>
-    <div class="row px-4">
-      {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu' => 'footer_menu','menu_class' => 'nav flex-column' ]) !!}
+    <div class="row px-4 justify-content-center">
+      {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu' => 'footer_menu','menu_class' => 'nav' ]) !!}
     </div>
   </div>
 </footer>
