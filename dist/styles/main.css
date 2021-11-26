@@ -16190,7 +16190,7 @@ footer.content-info {
 
 /* line 16, resources/assets/styles/layouts/_footer.scss */
 
-#menu-footer_menu li:nth-child(1):after {
+#menu-footer_menu li::after {
   content: "-";
   margin: 0 0.25rem;
   border: 0px solid red;
@@ -16230,6 +16230,7 @@ main {
   height: 30vh;
   overflow: hidden;
   background-position: center;
+  background-size: 100%;
 }
 
 /* line 28, resources/assets/styles/layouts/_zoning.scss */
